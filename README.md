@@ -1,4 +1,11 @@
-# install
+# GitHub Actions
+```bash
+git tag -a <tagname> <checksum>
+git push origin <tagname>
+```
+
+# Locally
+## Install
 ```bash
 sudo apt install texlive-latex-extra
 ```
@@ -7,7 +14,7 @@ or
 make install
 ````
 
-# run
+## Run
 ```bash
 pdflatex mc_cv.tex
 bibtex mc_cv.aux
