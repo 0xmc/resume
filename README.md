@@ -1,5 +1,7 @@
 # GitHub Actions
 ```bash
+git commit -a -m <comment>
+git push
 git tag -a <tagname> <checksum>
 git push origin <tagname>
 ```
