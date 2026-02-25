@@ -1,0 +1,12 @@
+{
+    "name": "LaTeX Dev Container",
+    "image": "texlive/texlive:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-latex"
+            ]
+        }
+    },
+    "postCreateCommand": "apt update && apt install -y pipx && pipx install pre-commit && export PATH=\"$PATH:/root/.local/bin\" && pre-commit install"
+}

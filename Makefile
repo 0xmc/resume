@@ -1,3 +1,5 @@
+.PHONY: install clean build
+
 install:
 	sudo apt install texlive-latex-extra
 
