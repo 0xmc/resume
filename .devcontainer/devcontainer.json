@@ -8,5 +8,5 @@
             ]
         }
     },
-    "postCreateCommand": "apt update && apt install -y pipx && pipx install pre-commit && export PATH=\"$PATH:/root/.local/bin\" && pre-commit install"
+    "postCreateCommand": "apt update && apt install -y pre-commit && pre-commit install"
 }
